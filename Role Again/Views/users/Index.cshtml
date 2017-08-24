@@ -1,0 +1,32 @@
+﻿@model Role_Again.Models.IndexViewModel
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@if (ViewBag.displayMenu == "Yes")
+{
+    <h1>Welcome Admin <strong>@ViewBag.Name</strong>. Now you can create user Role.</h1>
+    <h3>
+        @Html.ActionLink("Edit Account", "Index", "Manage", new { id = 1 }, new { @class = "btn btn-primary btn-md" })
+    </h3>
+    <h2>
+        <li>@Html.ActionLink("Manage Role", "Index", "Role")</li>
+        <li>@Html.ActionLink("Manage Account", "Index", "ManageAccount")</li>
+        <li>@Html.ActionLink("Manage Upload", "DetailManage", "Upload")</li>
+    </h2>
+}
+else
+{
+    <h2>  Welcome <strong>@ViewBag.Name</strong> :) </h2>
+    <h3>
+        @Html.ActionLink("Edit Account", "Index", "Manage", new { id = User.Identity.GetUserId() }, new { @class = "btn btn-primary btn-md" })
+    </h3>
+    <h4>
+        <li>@Html.ActionLink("Upload File", "Upload", "Upload")</li>
+        <li>@Html.ActionLink("Manage Upload", "DetailManage", "Upload" , new { id = User.Identity.GetUserId() }, null)</li>
+    </h4>
+}
+

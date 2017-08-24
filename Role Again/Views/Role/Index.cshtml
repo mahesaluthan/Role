@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>
+@{
+    ViewBag.Title = "Add Role";
+}
+
+<h2>Manage Role</h2>
+@if (ViewBag.displayMenu == "Yes")
+{
+    <h1>Create or Delete Roles</h1>
+    <p>@(Html.ActionLink("Create New Role", "Create", "Role", new { @class = "btn btn-default bt-md" }))</p>
+    <table class="table table-bordered table-striped table-hover table-responsive" style="margin-top:20px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in ViewBag.role)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@(Html.ActionLink("Delete", "Delete", "Role", new { id = item.Id }, new { @class = "btn btn-danger btn-md" }))</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <hgroup>
+        <h1 class="text-danger">You are not Admin.</h1>
+        <h2 class="text-danger">This page can be access by Admin.</h2>
+    </hgroup>
+
+}
+
+  

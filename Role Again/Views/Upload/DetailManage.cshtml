@@ -1,0 +1,55 @@
+﻿@model Role_Again.Models.FileUpload
+@{
+    ViewBag.Title = "DetailManage";
+}
+
+<h2>DetailManage</h2>
+<div class="alert alert-info alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    @ViewBag.error
+</div>
+<table class="table table-bordered table-condensed table-hover table-responsive" style="margin-top:20px;">
+    <thead>
+        <tr><th colspan="6" class="alert-info"><center>Data Image</center></th></tr>
+        <tr>
+            <th>ID</th>
+            <th>User ID</th>
+            <th>FileName</th>
+            <th>FilePath</th>
+            <th>Download</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var jung in ViewBag.see)
+            {
+            <tr>
+                <td>@jung.ID</td>
+                <td>@jung.Userid</td>
+                <td>@jung.Filename</td>
+                <td><img src="@Url.Content(jung.Filepath)" alt="Smiley face" height="42" width="42" /></td>
+                <td>@Html.ActionLink("Download File", "Download", new { id = jung.ID })</td>
+                <td>
+                    @(Html.ActionLink("Edit", "Edit", new { id = jung.ID }, new { @class = "btn btn-info btn-sm" }))
+                    @(Html.ActionLink("Hapus", "Delete", new { id = jung.ID }, new { @class = "btn btn-danger btn-sm" }))
+                    @if (ViewBag.approve == true)
+                    {
+                        if (jung.Approve == false || jung.Approve == null)
+                        {
+                            @(Html.ActionLink("Approve", "Approve", new { id = jung.ID }, new { @class = "btn btn-warning btn-sm" }))
+                        }
+                        else
+                        {
+                            @(Html.ActionLink("unapprove", "Approve", new { id = jung.ID }, new { @class = "btn btn-danger btn-sm" }))
+                        }
+                    }
+                </td>
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>
+
+

@@ -1,0 +1,85 @@
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\ApplicationInsights.config
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\csc.exe
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\System.Collections.Immutable.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\vbc.exe
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\VBCSCompiler.exe
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\roslyn\VBCSCompiler.exe.config
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Role Again.dll.config
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Role Again.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Role Again.pdb
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Antlr3.Runtime.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\EntityFramework.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\EntityFramework.SqlServer.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.Web.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.WindowsServer.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.ApplicationInsights.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Google.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Web.Infrastructure.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Newtonsoft.Json.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Owin.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Helpers.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Mvc.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Optimization.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Razor.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.Deployment.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.Razor.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\WebGrease.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.Web.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AI.WindowsServer.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.ApplicationInsights.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Helpers.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Mvc.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Optimization.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.Razor.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.Deployment.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\System.Web.WebPages.Razor.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Antlr3.Runtime.pdb
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Newtonsoft.Json.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\EntityFramework.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\EntityFramework.SqlServer.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Google.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role Again.dll
+c:\users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role Again.pdb
+C:\Users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role Again.csprojResolveAssemblyReference.cache
+C:\Users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role_Again.Migrations.upload.resources
+C:\Users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role Again.csproj.GenerateResource.Cache
+C:\Users\agus\documents\visual studio 2015\Projects\Role Again\Role Again\obj\Debug\Role_Again.Migrations.asas.resources

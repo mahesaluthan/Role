@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage Account</h2>
+@if (ViewBag.displayMenu == "Yes")
+{
+    <h1>Admin can Disable/Enable and Delete Account from here </h1>
+    <table class="table table-bordered table-striped table-hover table-responsive" style="margin-top:20px;">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in ViewBag.Admin)
+            {
+                <tr>
+                    <td>@item.UserName</td>
+                    <td>@item.Email</td>
+                    <td>@item.PasswordHash</td>
+                    <td>
+                        @if (item.LockoutEnabled == true)
+                        {
+                            @*@(Html.ActionLink("Disable", "Status", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" }))*@
+                        if (item.UserName == "shanu")
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            @(Html.ActionLink("Disable", "Status", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" }))
+                            }
+                        }
+                        else
+                        {
+                            @(Html.ActionLink("Enable", "Status", new { id = item.Id }, new { @class = "btn btn-success btn-sm" }))
+                        }
+                        @(Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" }))
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <hgroup>
+        <h1 class="text-danger">You are not Admin.</h1>
+        <h2 class="text-danger">This page can be access by Admin.</h2>
+    </hgroup>
+
+}
+
